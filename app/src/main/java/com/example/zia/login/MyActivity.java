@@ -48,7 +48,7 @@ public class MyActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Intent.ACTION_VIEW);
-                intent.setData(Uri.parse("http://www.baidu.com"));
+                intent.setData(Uri.parse("http://www.jianshu.com/p/a0bf389680ad"));
                 startActivity(intent);
                 MyActivity.this.onPause();
             }
